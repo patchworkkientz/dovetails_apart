@@ -24,7 +24,7 @@ export default function Whitepaper() {
                 <br />
                 <div>
                     <h1 className="h2 page-h2 flex-50">
-                        With its own wallet, the chatbot specializes in crypto solutions, outsourcing tasks like blockchain integration and legal structuring to a network of agents. Critical implementation details, such as company registration and token issuance, are recorded on-chain for financial synchronicity. Rather than building isolated platforms exclusive for tokenizing assets like artworks, real-estate or DAOs—where infrastructure is repeatedly reinvented—this system leverages existing protocols, eliminating redundant validator sets and cumbersome UIs. 
+                        With its own wallet, the chatbot specializes in crypto solutions, outsourcing tasks like blockchain integration and legal structuring to a network of agents. Critical implementation details, such as company registration and token issuance, are recorded on-chain for financial synchronicity. Rather than building isolated platforms exclusive for tokenizing assets like artworks, real-estate or DAOs—-where infrastructure is repeatedly reinvented—-this system leverages existing protocols, eliminating redundant validator sets and cumbersome UIs. 
                     </h1>
                     <h1 className="h2 page-h2"></h1>
                 </div>
@@ -32,7 +32,7 @@ export default function Whitepaper() {
                 <br />
                 <div>
                     <h1 className="h2 page-h2 flex-50">
-                        We envision a world where AI navigates the complexities of crypto to help users realize the promises of Web3. By leveraging existing solutions and connecting blockchain primitives—such as staking protocols, block enrichment services, and proof systems—AI can assemble custom solutions on demand without reinventing the wheel. 
+                        We envision a world where AI navigates the complexities of crypto to help users realize the promises of Web3. By leveraging existing solutions and connecting blockchain primitives—-such as staking protocols, block enrichment services, and proof systems—-AI can assemble custom solutions on demand without reinventing the wheel. 
                     </h1>
                     <h1 className="h2 page-h2"></h1>
                 </div>
@@ -40,7 +40,7 @@ export default function Whitepaper() {
                 <br />
                 <div>
                     <h1 className="h2 page-h2 flex-50">
-                        Sometimes the chatbot may simply delegate a user's request to an existing protocol. Other times, agents might generate smart contracts or integrate off-the-shelf blockchain mechanisms to assemble new protocols. These mechanisms may be free or monetized, giving rise to a marketplace of mechanisms. The underlying LLM for this AI powered Web3 builder will master how crypto mechanisms and infrastructure primitives interconnect—distilling the entirety of crypto functionality into a DNA for generating Web3 solutions.
+                        Sometimes the chatbot may simply delegate a user's request to an existing protocol. Other times, agents might generate smart contracts or integrate off-the-shelf blockchain mechanisms to assemble new protocols. These mechanisms may be free or monetized, giving rise to a marketplace of mechanisms. The underlying LLM for this AI powered Web3 builder will master how crypto mechanisms and infrastructure primitives interconnect—-distilling the entirety of crypto functionality into a DNA for generating Web3 solutions.
                     </h1>
                     <h1 className="h2 page-h2"></h1>
                 </div>

@@ -19,7 +19,7 @@ export default function Whitepaper() {
                         How will monetization work? 
                     </h1>
                     <br />
-                    <h1 className="h2 page-h2">Whenever someone uses the system to create a crypto solution—such as tokenizing a real-world asset or establishing a financial supply chain—the system will negotiate a small share of the assets being created or transacted. Over time, a diverse portfolio of tokens will be aggregated and managed autonomously.</h1>
+                    <h1 className="h2 page-h2">Whenever someone uses the system to create a crypto solution—-such as tokenizing a real-world asset or establishing a financial supply chain—the system will negotiate a small share of the assets being created or transacted. Over time, a diverse portfolio of tokens will be aggregated and managed autonomously.</h1>
                 </div>
        </div>         
       </div>

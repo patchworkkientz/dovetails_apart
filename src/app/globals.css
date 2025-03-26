@@ -3815,8 +3815,8 @@ em {
 }
 
 .floating-logo.homepage {
-  width: 30px;
-  height: 30px;
+  width: 80px;
+  height: 80px;
   margin-top: 0;
   position: fixed;
   top: auto

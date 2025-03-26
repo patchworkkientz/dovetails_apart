@@ -38,12 +38,13 @@ export default function Header() {
         </div>
         <div className="container-regular-2">
             <div className="navbar-wrapper-2">
-                <Link href="/" className="navbar-brand w-nav-brand">
+                <Link href="/" className="">
+                {/* navbar-brand w-nav-brand */}
                     <Image
                         width="240" height="0" loading="lazy" alt=""
                         src="/Dovetails_APART.png"
                         className="text-logo home-text-logo"
-                        style={{ height: 'auto' }}/>
+                        style={{ height: 'auto', paddingLeft: '30px', paddingTop: '17px' }}/>
                 </Link>
                 <div className="menu-button w-nav-button"  aria-label="menu" role="button"
                   aria-controls="w-nav-overlay-0" aria-haspopup="menu" aria-expanded="false">

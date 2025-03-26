@@ -9,6 +9,9 @@ export default function Home() {
     {/* favicon maker: https://www.favicon.cc/?  highly pixelated imagery */}
     <section colorscroll-mode="2" className="pink-bg">
         <div className="w-layout-blockcontainer container-regular _2col wide w-container">
+            <br />
+            <br />
+            <br />
             <div className="sidebar">
                 <div className="text-border">**************</div>
                 <h2 className="h2"><strong className="bold-text-2">crypto DNA</strong></h2>

@@ -1,0 +1,83 @@
+/* Responsive Fixes for Mobile & Desktop */
+
+/* Prevent horizontal overflow */
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+/* Fix pink-bg section spacing */
+.pink-bg {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Make containers responsive */
+.container-regular._2col.wide {
+  flex-wrap: wrap;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Sidebar responsive */
+@media screen and (max-width: 991px) {
+  .sidebar {
+    max-width: 100%;
+    margin-left: 0;
+    margin-bottom: 30px;
+  }
+  
+  ._2-col-content {
+    max-width: 100%;
+    margin-right: 0;
+  }
+  
+  .container-regular._2col.wide {
+    flex-direction: column;
+    margin-right: 0;
+  }
+}
+
+/* Mobile breakpoints */
+@media screen and (max-width: 767px) {
+  .h1.page-h1 {
+    font-size: 32px;
+    line-height: 40px;
+    padding-right: 0;
+  }
+  
+  .h2.page-h2 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  
+  .container-regular._2col.wide {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .sidebar {
+    margin-left: 0;
+  }
+}
+
+/* Extra small screens */
+@media screen and (max-width: 479px) {
+  .h1.page-h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  
+  .h2.page-h2 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  .container-regular {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}

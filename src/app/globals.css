@@ -9182,3 +9182,38 @@ em {
   font-style: normal;
   font-display: swap;
 }
+
+/* APART responsive refinement — kept last to override the imported Webflow rules. */
+body { color: #581000; background: beige; overflow-x: hidden; }
+.pink-bg { min-height: calc(100svh - 78px); padding: clamp(64px, 10vw, 148px) 0 clamp(72px, 11vw, 160px); }
+.container-regular._2col.wide { width: min(100% - clamp(40px, 8vw, 128px), 1440px); margin: 0 auto; padding: 0; gap: clamp(32px, 7vw, 112px); align-items: flex-start; }
+.sidebar { flex: 0 0 clamp(132px, 16vw, 220px); max-width: none; margin: 10px 0 0; }
+._2-col-content { flex: 1 1 0; margin: 0; min-width: 0; }
+.text-border { color: #581000; letter-spacing: .02em; overflow: hidden; white-space: nowrap; }
+.sidebar .h2 { padding: 0; margin: 12px 0 0; font-size: 14px; line-height: 1.4; text-transform: uppercase; }
+.h1.page-h1 { max-width: 920px; margin: 0 0 clamp(28px, 5vw, 60px); padding: 0; font-size: clamp(42px, 6.3vw, 88px); line-height: .98; letter-spacing: -.035em; }
+.h2.page-h2 { max-width: 760px; margin: 0; padding: 0; font-size: clamp(16px, 1.45vw, 21px); line-height: 1.65; }
+.intro-copy + .intro-copy { margin-top: 28px; }
+.question-title { color: #581000; font-family: Mondwest, sans-serif; font-size: clamp(22px, 2.6vw, 35px); line-height: 1.2; margin-bottom: 20px; }
+.footer-light { padding: 25px clamp(20px, 4vw, 64px); }
+.footer-wrapper-two { max-width: 1440px; margin: 0 auto; justify-content: space-between; gap: 24px; }
+
+@media (max-width: 800px) {
+  .pink-bg { min-height: calc(100svh - 68px); padding: 56px 0 72px; }
+  .container-regular._2col.wide { width: min(100% - 40px, 680px); flex-direction: column; gap: 24px; }
+  .sidebar { flex: none; width: 100%; margin: 0; }
+  ._2-col-content { width: 100%; }
+  .h1.page-h1 { margin-bottom: 30px; font-size: clamp(42px, 12vw, 64px); }
+  .h2.page-h2 { font-size: 16px; line-height: 1.62; }
+  .footer-wrapper-two, .footer-block-two { align-items: flex-start; }
+}
+
+@media (max-width: 479px) {
+  .container-regular._2col.wide { width: calc(100% - 32px); }
+  .pink-bg { padding: 44px 0 56px; }
+  .h1.page-h1 { font-size: clamp(40px, 13vw, 56px); }
+  .footer-light { padding: 24px 16px; }
+  .footer-wrapper-two { gap: 14px; }
+  .footer-link-two { margin-right: 0; line-height: 1.5; }
+  .footer-copyright { font-size: 20px; line-height: 1.4; }
+}

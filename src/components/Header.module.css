@@ -1,0 +1,23 @@
+.header { position: relative; z-index: 20; background: beige; border-bottom: 1px dashed #581000; }
+.inner { min-height: 78px; max-width: 1440px; margin: 0 auto; padding: 12px clamp(20px, 4vw, 64px); display: flex; align-items: center; justify-content: space-between; gap: 28px; }
+.brand { display: inline-flex; align-items: center; gap: 13px; min-width: 0; color: #581000; text-decoration: none; }
+.wordmark { width: clamp(164px, 22vw, 272px); height: auto; }
+.nav { display: flex; align-items: center; gap: clamp(8px, 1.5vw, 24px); }
+.navLink { color: #581000; border: 1px solid transparent; border-radius: 999px; padding: 8px 12px; font-family: "Simplonmono Webs", monospace; font-size: 13px; letter-spacing: .02em; line-height: 1.2; text-decoration: none; transition: background-color .2s ease, border-color .2s ease, transform .2s ease; }
+.navLink:hover { background: #581000; border-color: #581000; color: beige; transform: translateY(-1px); }
+.navLink:focus-visible, .menuButton:focus-visible, .brand:focus-visible { outline: 2px solid #581000; outline-offset: 3px; }
+.menuButton { display: none; }
+
+@media (max-width: 700px) {
+  .inner { min-height: 68px; padding: 10px 20px; }
+  .brand > img:first-child { width: 36px; height: 36px; }
+  .wordmark { width: min(48vw, 214px); }
+  .menuButton { width: 44px; height: 44px; border: 1px solid #581000; border-radius: 50%; background: transparent; padding: 0; display: grid; place-content: center; gap: 5px; }
+  .menuButton span { width: 17px; height: 1px; display: block; background: #581000; transition: transform .2s ease; }
+  .menuButton[aria-expanded="true"] span:first-child { transform: translateY(3px) rotate(45deg); }
+  .menuButton[aria-expanded="true"] span:last-child { transform: translateY(-3px) rotate(-45deg); }
+  .nav { position: absolute; top: calc(100% + 1px); right: 0; left: 0; background: #581000; padding: 12px 20px 20px; display: grid; gap: 4px; border-bottom: 1px dashed beige; transform: translateY(-12px); opacity: 0; pointer-events: none; transition: opacity .2s ease, transform .2s ease; }
+  .nav.open { transform: translateY(0); opacity: 1; pointer-events: auto; }
+  .navLink { color: beige; padding: 12px 0; border-radius: 0; border-bottom: 1px dashed rgba(245, 245, 220, .45); font-size: 15px; }
+  .navLink:hover { background: transparent; border-color: beige; color: beige; transform: none; }
+}

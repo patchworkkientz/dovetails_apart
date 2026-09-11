@@ -63,7 +63,7 @@ export default function Footer() {
                             </a></div>
                     </div>
                     <div className="footer-block-two">
-                        <div className="footer-copyright">APART &nbsp;©2025 </div>
+                        <div className="footer-copyright">APART &nbsp;©2026 </div>
                     </div>
                 </div>
             </div>
